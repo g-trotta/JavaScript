@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font: normal 20px Arial;
+        }
+    </style>
+</head>
+<body>
+
+    <script>
+        a = 8
+        b = '8'
+        document.write (a == b)
+        document.write ('<br>')
+        document.write(a !== b) // !== Desigual restrito e === Igual restrito (compara se os dois são do mesmo typeoff ou tipo)
+        document.write ('<br>')
+        /* !true = false !false = true - Os operadores de negação sempre retornarão o valor oposto ao digitado após a exclamação
+        true && true = true - Ns operadores de conjunção Os dois tem que ser verdadeiros para retornar verdadeiro
+        false || false = false, true || false = true
+        Nos operadores de disjunção basta que apenas um seja verdadeiro para retornar verdadeiro*/
+        b2 = 5
+        var c = 8
+        var d = b2 > c
+        var e = c % 2 === 0
+        var f = d && e
+        var g = d || e
+        document.write(f)
+        document.write(`<br> ${g}`)
+        /* idade >= 15 && idade <= 17 - Idade está entre 15 ou 17?
+        estado = 'RJ' || estado 'SP' - o estado é RJ ou SP
+        salario > 1500 && sexo != 'M'
+        Ordem de Precedência:
+        Operadores Aritiméticos
+        Operadores Relacionais
+        Operadores Lógicos = Ordem de precedência '!' depois o '&&' e por último '||' 
+        Operador Ternário "teste?true:false" */
+        var media = 8.5
+        document.write(media >=7?'<br>Aprovado<br>':'<br>Reprovado<br>')
+        var x = 8
+        var res = x % 2 == 0?'<br>S<br>':'<br>N<br>'
+        document.write(res)
+    </script>
+</body>
+</html>

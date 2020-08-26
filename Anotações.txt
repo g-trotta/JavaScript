@@ -1,0 +1,2 @@
+http://developer.mozilla.org/
+https://www.ecma-international.org/publications/standards/Ecma-262.htm
